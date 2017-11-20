@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Registrazione" option="com_wizard" view="Registrazione">
+
+        <message>
+            Registrazione
+        </message>
+        </layout>
+
+        </metadata>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"
+           version="3.2.0"
+           method="upgrade">
+
+	<name>wizard</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>Marzo 2015</creationDate>
+	<author>Antonio Giangravè</author>
+	<authorEmail>antonio@ggallery.it</authorEmail>
+	<authorUrl>http://www.ggallery.it</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>3.0.1</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Description of the wizard component ...</description>
+
+	<update> <!-- Runs on update; New in 2.5 -->
+		<schemas>
+
+		</schemas>
+	</update>
+
+
+
+	<administration>
+		<!-- Administration Menu Section -->
+
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+				to copy FROM in the package to install therefore files copied
+				in this section are copied from /admin/ in the package -->
+	</administration>
+
+
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /site/ in the package -->
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>css/custom.css</filename>
+		<filename>images/gufo.png</filename>
+		<filename>index.html</filename>
+		<filename>models/case0.php</filename>
+		<filename>models/case1.php</filename>
+		<filename>models/libs/contenuto.lib.php</filename>
+		<filename>models/libs/FirePHPCore/fb.php</filename>
+		<filename>models/libs/FirePHPCore/fb.php4</filename>
+		<filename>models/libs/FirePHPCore/FirePHP.class.php</filename>
+		<filename>models/libs/FirePHPCore/FirePHP.class.php4</filename>
+		<filename>models/libs/FirePHPCore/LICENSE</filename>
+		<filename>models/templates/temp.tpl</filename>
+		<filename>router.php</filename>
+		<filename>views/case0/tmpl/default_0a.php</filename>
+		<filename>views/case0/tmpl/default_0b.php</filename>
+		<filename>views/case0/tmpl/default_0c.php</filename>
+		<filename>views/case0/tmpl/default_0d.php</filename>
+		<filename>views/case0/tmpl/default_0e.php</filename>
+		<filename>views/case0/tmpl/default_0e_reg_1.php</filename>
+		<filename>views/case0/tmpl/default_0e_reg_2.php</filename>
+		<filename>views/case0/tmpl/default_0e_reg_3.php</filename>
+		<filename>views/case0/tmpl/default_0e_reg_4.php</filename>
+		<filename>views/case0/tmpl/default_0f.php</filename>
+		<filename>views/case0/tmpl/default_0f_backup.php</filename>
+		<filename>views/case0/tmpl/default_login.php</filename>
+		<filename>views/case0/tmpl/Wizard.xml</filename>
+		<filename>views/case0/view.html.php</filename>
+		<filename>views/case1/tmpl/default.php</filename>
+		<filename>views/case1/tmpl/default_country.php</filename>
+		<filename>views/case1/tmpl/default_hhcp.php</filename>
+		<filename>views/case1/tmpl/Wizard.xml</filename>
+		<filename>views/case1/view.html.php</filename>
+		<filename>wizard.php</filename>
+	</files>
+
+
+
+</extension>

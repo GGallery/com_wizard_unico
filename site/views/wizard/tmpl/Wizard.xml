@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Wizard" option="com_wizard" view="Start wizard">
+
+        <message>
+            Wizard
+        </message>
+        </layout>
+
+        </metadata>

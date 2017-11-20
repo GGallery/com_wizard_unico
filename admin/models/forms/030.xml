@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_wizard/models/rules">
+
+	<fieldset addfieldpath="/administrator/components/com_wizard/models/fields" >
+		<field
+				name="id"
+				type="text"
+				label="Id"
+				description="id"
+				size="100"
+				required="true"
+				default=""
+				readonly="true"
+		/>
+
+
+
+		<field
+				name="partita_iva"
+				type="text"
+				label="Partita IVA Farmacia"
+				description="Partita Iva Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required="true"
+				default=""
+		/>
+
+
+
+	</fieldset>
+</form>

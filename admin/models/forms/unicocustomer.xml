@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_wizard/models/rules">
+
+	<fieldset addfieldpath="/administrator/components/com_wizard/models/fields" >
+		<field
+				name="id"
+				type="text"
+				label="Id"
+				description="id"
+				size="100"
+				required="true"
+				default=""
+				readonly="true"
+		/>
+
+
+		<field
+				name="codice"
+				type="text"
+				label="Codice Unico"
+				description="Codice Unico Farmacia"
+				size="70"
+				class="inputbox"
+				required="true"
+				default=""
+		/>
+
+		<field
+				name="ragione_sociale"
+				type="text"
+				label="Ragione Sociale Farmacia"
+				description="Ragione Sociale Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required="true"
+				default=""
+		/>
+
+
+		<field
+				name="indirizzo"
+				type="text"
+				label="Indirizzo Farmacia"
+				description="Indirizzo Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+
+		<field
+				name="cap"
+				type="text"
+				label="Cap Farmacia"
+				description="Cap Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+
+		<field
+				name="localita"
+				type="text"
+				label="Localita Farmacia"
+				description="Localita Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+
+		<field
+				name="provincia"
+				type="text"
+				label="provincia Farmacia"
+				description="Provincia Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+
+		<field
+				name="partita_iva"
+				type="text"
+				label="Partita IVA Farmacia"
+				description="Partita Iva Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required="true"
+				default=""
+		/>
+
+
+		<field
+				name="prefisso"
+				type="text"
+				label="Prefisso telefonico Farmacia"
+				description="Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+		<field
+				name="telefono"
+				type="text"
+				label="Telefono Farmacia"
+				description="Telefono Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+		<field
+				name="email"
+				type="email"
+				label="Email Farmacia"
+				description="Email Farmacia Unico"
+				size="70"
+				class="inputbox"
+				required="true"
+				default=""
+		/>
+
+		<field
+				name="cfassociati"
+				type="textarea"
+				label="CF associati"
+				description="Codici fiscali associati"
+				rows="5"
+				class="inputbox"
+				required=""
+				default=""
+		/>
+
+	</fieldset>
+</form>
