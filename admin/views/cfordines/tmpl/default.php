@@ -15,6 +15,7 @@ JHtml::_('behavior.tooltip');
 JFormHelper::addFieldPath(JPATH_COMPONENT . '/models/fields');
 
 //commenti
+//un altro commento di Antonio
 
 
 ?>
