@@ -30,6 +30,11 @@ class wizardHelper {
             'index.php?option=com_wizard&view=030s',
             $submenu == 'unitas'
         );
+        JHtmlSidebar::addEntry(
+            '<i class="icon-users"></i>' . JText::_('CF Ordine Farmacisti'),
+            'index.php?option=com_wizard&view=cfordines',
+            $submenu == 'unitas'
+        );
 // 
 
         $document = JFactory::getDocument();
@@ -44,6 +49,9 @@ class wizardHelper {
 
         if ($submenu == '030s') {
             $document->setTitle("Clienti 030");
+        }
+        if ($submenu == 'cfordines') {
+            $document->setTitle("CF Ordine Farmacisti");
         }
 
 
